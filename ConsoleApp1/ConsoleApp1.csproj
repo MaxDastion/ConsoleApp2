@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>f1b201e3-0883-4deb-bcba-c2e114de6924</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileSystemLibrary\FileSystemLibrary.csproj" />
+    <ProjectReference Include="..\GeometryLibrary\GeometryLibrary.csproj" />
+    <ProjectReference Include="..\TextProcessingLibrary\TextProcessingLibrary.csproj" />
+    <ProjectReference Include="..\ValidationLibrary\ValidationLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
